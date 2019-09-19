@@ -10,18 +10,16 @@
         android:id="@+id/numberInput"
         android:layout_width="340dp"
         android:layout_height="126dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="16dp"
-        android:cursorVisible="true"
+        android:cursorVisible="false"
         android:ems="10"
-        android:inputType="number"
-        android:textSize="44sp"
+        android:inputType="textPersonName"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="355dp"
         android:layout_height="376dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -44,16 +42,16 @@
                 android:textSize="40sp" />
 
             <Button
-                android:id="@+id/buttonSqrt"
+                android:id="@+id/buttonParenthesis"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="^"
+                android:text="()"
                 android:textColor="#3F51B5"
                 android:textSize="40sp" />
 
             <Button
-                android:id="@+id/buttonPro"
+                android:id="@+id/buttonProc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -224,4 +222,5 @@
                 android:textSize="40sp" />
         </TableRow>
     </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
