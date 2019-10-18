@@ -10,7 +10,6 @@ import android.widget.TextView;
 public class Details extends AppCompatActivity {
     TextView storyContent;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
